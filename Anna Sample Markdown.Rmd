@@ -1,8 +1,11 @@
 ---
 title: "Diamond sizes"
-author: Katherine Martinez
-date: 2023
-output: word_document
+author: "Katherine Martinez"
+date: '2023'
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
 ---
 
 ``` {r, echo = FALSE}
